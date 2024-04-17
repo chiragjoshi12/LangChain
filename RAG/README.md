@@ -2,19 +2,12 @@
 
 [Kaggle Notebook](https://retrieval-augmented-generation.streamlit.app/)
 
-![Demo](data/demo.gif)
+## Understnad : How our notebook work ?
+![Demo](https://python.langchain.com/assets/images/data_connection-95ff2033a8faa5f3ba41376c0f6dd32a.jpg)
 
 ## Overview
 
 The Retrieval Augmented Engine (RAG) is a powerful tool for document retrieval, summarization, and interactive question-answering. This project utilizes LangChain and weaviate Db to provide a seamless web application for users to perform these tasks. With RAG, you can easily upload Your documents (Like PDF File, Json File, txt File etc.) and easily ask Questions related your Documents. 
-
-
-## Features
-
-- **Document Reading**: Users can upload multiple PDF files, which are then processed for further analysis.
-- **Document's Text Splitting**: The uploaded PDFs are split into smaller text chunks, ensuring compatibility with models with token limits.
-- **Vector Embeddings**: The text chunks are converted into vector embeddings using `OPENAI_API_KEY`, making it easier to perform retrieval and question-answering tasks.
-- **Flexible Vector Storage**: You can choose to store vector embeddings either in weaviate or a local vector store, providing flexibility and control.
 
 ## Prerequisites
 

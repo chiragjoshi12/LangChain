@@ -18,7 +18,7 @@ Before running the project, make sure you have the following prerequisites:
 - weaviate
 - An OpenAI API key
 - WEAVIATE_API_KEY and WEAVIATE_CLUSTER_URL
-- Json File to upload (You can modily code and use other file)
+- TXT File to upload (You can modily code and use other file)
 
 ## Usage
 
